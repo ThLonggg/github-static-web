@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+header{
+    width: 980px;
+    height: 100px;
+    background: #c47c00;
+    padding-top: 5px;
+}
+
+header img{
+    padding-left: 30px;
+    margin-top: 30px;
+}
+nav{
+    height: 35px;
+    background: #352fe0;
+}
+
+nav .menu ul{
+    list-style: none;
+
+
+  
+}
+nav .menu ul li{
+    float: left;
+    padding: 0 20px;
+    line-height: 35px;
+    
+}
+
+nav .menu ul li a{
+    color: aliceblue;
+    font-size: 13px;
+    text-decoration: none;
+    
+}nav .search{
+    line-height: 35px;
+    float: right;
+    margin-right: 18px;
+}
+article h3{
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+article .new-list .new-item{
+    width: 28%;
+    padding: 12px;
+    float: left;
+    border: 1px solid #ccc;
+    margin-right: 4%;
+    
+   
+}
+#fix{
+    margin-right: 0;
+}
+article .new-list .new-item h4{
+    font-size: 16px;
+    color: #cb7802;
+}
+article .new-list .new-item img{
+    margin: 10px 5px;
+}
+article .new-list .new-item .content{
+    font-size: 13px;
+}
+footer{
+    width: 980px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #2b6ae8;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
